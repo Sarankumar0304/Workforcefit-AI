@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 import "./App.css";
 
-const API_BASE = "http://localhost:8000"; // replace with Render URL after deployment
+const API_BASE = "https://workforcefit-api.onrender.com"; // replace with Render URL after deployment
 
 const FITMENT_COLORS = {
   JOB_READY: "#10B981",
